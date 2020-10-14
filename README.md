@@ -1,2 +1,2 @@
-# kottans_kourse
+# kottans-frontend
 kottans new frontend kourse
