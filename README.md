@@ -1,8 +1,8 @@
 # Kottans-frontend course
-----
+
 Well, here's my progress:
 ## Stage 0. Self-Study
-- [X] ### Git Basics
+- [X] **Git Basics**
 
 <details>
   <summary>
