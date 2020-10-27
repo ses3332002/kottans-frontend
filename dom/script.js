@@ -1,7 +1,7 @@
 "use strict";
 window.onload = function() {
 
-// данные для отображения
+// data for displaing
   const alboms = [
     {
       "title": "Got to Be There (1972)",
@@ -222,12 +222,12 @@ window.onload = function() {
     }
   ];
 
-  // поиск элементов страницы
+  // definition of page elements
   var doc = document.querySelector("body");
   var navTab = document.querySelector(".navigation");
   var infoTab = document.querySelector(".info");
 
-  // заполнение меню
+  // filling the menu block
   navTab.innerHTML = "";
   var navTabBtn;
   for (var i = 0; i < alboms.length; i++) {
@@ -239,7 +239,7 @@ window.onload = function() {
   var navTabBtns = document.querySelectorAll(".navigation_btn");
   var navTabBtnsArray = Array.prototype.slice.call(navTabBtns);
 
-// слушатель событий меню
+  // listening for click events for buttons
   navTab.addEventListener("click", menuHandler);
 
   function menuHandler(e) {
@@ -248,7 +248,7 @@ window.onload = function() {
     var infoLine;
     infoTab.innerHTML = "";
     doc.style.setProperty("--background_color_h", alboms[selectedBtnIndex].bgColor);
-    infoTab.style.backgroundImage = "url(build/img/" + alboms[selectedBtnIndex].cover + ".jpg)";
+    infoTab.style.backgroundImage = "url(img/" + alboms[selectedBtnIndex].cover + ".jpg)";
     infoList = document.createElement("ul");
     for (var i = 0; i < alboms[selectedBtnIndex].songs.length; i++) {
       infoLine = document.createElement("li");
