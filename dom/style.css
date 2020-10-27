@@ -100,6 +100,7 @@ body {
 }
 
 .info ul {
+  margin: 0;
   padding: 10px;
   background-color: hsla(211, 20%, 49%, 0.57);
   z-index: 2;
