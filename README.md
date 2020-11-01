@@ -33,3 +33,18 @@ I've been a system administrator for more than 10 year, I worked with Linux on s
 I really think that Linux is quite ready for "home using" and there are many useful tools for common people to solve their computer problems and needs in Linux without command line interface.
 
 There are many commands in Linux, so you can use "cat", "more" or "less" depending on your habit in some cases, or you can use different keys for "ps", for example I prefer "ps -e" to see processes from all users of the computer.
+
+
+## Git Collaboration
+
+<details>
+  <summary>
+    <b>done, screenshots are here</b>
+  </summary>
+  <img src="./task_git_collaboration/udacity screenshot2.png" alt="udacity screenshot2">
+  <img src="./task_git_collaboration/learngitbranching screenshot2.png" alt="learngitbranching screenshot2">
+</details>
+
+I've changed my mind about git rebase :) I think I will use it in my work.
+
+Besides, I realized that there are a lot of interesting points in cooperative working with GitHub.
