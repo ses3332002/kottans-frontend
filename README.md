@@ -48,3 +48,30 @@ There are many commands in Linux, so you can use "cat", "more" or "less" dependi
 I've changed my mind about git rebase :) I think I will use it in my work.
 
 Besides, I realized that there are a lot of interesting points in cooperative working with GitHub.
+
+
+## Intro to HTML and CSS
+
+<details>
+  <summary>
+    <b>done, screenshots are here</b>
+  </summary>
+  <img src="./task_html_css_intro/udacity screenshot3.png" alt="udacity screenshot3">
+  <img src="./task_html_css_intro/codecademy screenshot.png" alt="codecademy screenshot">
+</details>
+
+I already knew much of what was in these tutorials, but it was helpful to read it again, especially about rarely used tags like **thead** and **tfoot**.
+Anyway, I am pleasantly surprised of how many free and quality training courses there are.
+
+
+## HTML-CSS-Popup
+
+<details>
+  <summary>
+    <b>done, links are here</b>
+  </summary>
+  
+  [Demo](https://ses3332002.github.io/kottans-frontend/html-css-popup/)
+  
+  [Code base](https://github.com/ses3332002/kottans-frontend/tree/main/html-css-popup)
+</details>
