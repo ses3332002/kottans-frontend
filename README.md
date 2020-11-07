@@ -64,6 +64,22 @@ I already knew much of what was in these tutorials, but it was helpful to read i
 Anyway, I am pleasantly surprised of how many free and quality training courses there are.
 
 
+## Responsive Web Design
+
+<details>
+  <summary>
+    <b>done, screenshots are here</b>
+  </summary>
+  <img src="./task_responsive_web_design/udacity screenshot4.png" alt="udacity screenshot4">
+  <img src="./task_responsive_web_design/flexbox froggy screenshot.png" alt="flexbox froggy screenshot">
+</details>
+
+It was new for me how to use your own Android phone to debug sites on mobile device. I think it could be very useful. 
+I used a webserver on my home NAS for testing from different devices via WIFI, but "developer mode" on Android could give more possibilities. 
+
+And what about Flexbox: sometimes I muss with it's properties, thank god there is Emmet, it can prompt some needful. Once it prompted me "align-content", I added "justify-items" and then for 10 minutes I was trying to find out why my site is not working properly :)
+
+
 ## HTML-CSS-Popup
 
 <details>
