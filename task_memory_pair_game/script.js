@@ -114,7 +114,7 @@ window.onload = function() {
       if (!cardSelected) {
         cardSelected = cardsArray.indexOf(target) + 1;
         lockCard.call(target);
-      } else if (numbersArray[cardSelected - 1] == numbersArray[cardsArray.indexOf(target)]) {
+      } else if ((numbersArray[cardSelected - 1] == numbersArray[cardsArray.indexOf(target)])&&(cardSelected - 1 != cardsArray.indexOf(target))) {
         vanishCard.call(cardsArray[cardSelected - 1]);
         vanishCard.call(target);
         cardSelected = "";
