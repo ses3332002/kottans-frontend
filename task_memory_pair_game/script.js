@@ -23,12 +23,12 @@ window.onload = function() {
   const sizeSelector = document.querySelector(".size_selector");
   const cardThemeSelector = document.querySelectorAll('input[name="option"]');
   const startButton = document.querySelector(".start_button");
-  const gameArea = document.querySelector(".game_area");
-  let numbersArray = [];
+  let gameArea = document.querySelector(".game_area");
+  let numbersArray;
   let cardThemeSelected;
   let cardSelected;
-  let cardsArray = [];
-  let matchedCounter = 0;
+  let cardsArray;
+  let matchedCounter;
   
   startButton.addEventListener("click", startGame);
 
@@ -63,10 +63,12 @@ window.onload = function() {
     startButton.disabled = true;
     startButton.classList.add("form_item-desabled");
     startButton.style.pointerEvents = "none";
+    matchedCounter = 0;
     prepareGameField();
   };
   
   function prepareGameField() {
+    numbersArray = [];
     for (let i=0; i < sizeSelector.value/2; i++) {
       numbersArray[i] = i;
     };
@@ -153,12 +155,30 @@ window.onload = function() {
 
   function hailWinner() {
     const hailWindow = document.createElement("div");
-    hailWindow.innerHTML = `Вы выиграли!<button class="popup_hail__button">Ok</button>`;
-    hailWindow.classList.add("popup_hail");
+    hailWindow.classList.add("popup_hail__background");
+    hailWindow.innerHTML = `<div class="popup_hail__window">Вы выиграли!<button class="popup_hail__button">Ok</button></div>`;
     doc.append(hailWindow);
     const okButton = document.querySelector(".popup_hail__button");
-    okButton.addEventListener("click", function () {
-      document.location.reload();
-    });
+    okButton.addEventListener("click", resetWindow);
+    
+    function resetWindow() {
+      okButton.removeEventListener("click", resetWindow);
+      hailWindow.remove();
+      sizeSelector.disabled = false;
+      sizeSelector.classList.remove("form_item-desabled");
+      startButton.disabled = false;
+      startButton.classList.remove("form_item-desabled");
+      startButton.style.pointerEvents = "all";
+      cardThemeSelector.forEach((item) => {
+        item.disabled = false;
+        item.nextElementSibling.classList.remove("form_item-desabled");
+        item.nextElementSibling.style.pointerEvents = "all";
+      });
+      gameArea.classList.forEach((item) => {
+        gameArea.classList.remove(item);
+      });
+      gameArea.classList.add("game_area");
+      gameArea.innerHTML = "";
+    };
   };
 }
