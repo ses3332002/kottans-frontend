@@ -1,29 +1,11 @@
 "use strict";
-window.onload = function() {
-  
-  const themes = [
-    {
-      "color1": "#f6da73",
-      "color2": "#3e5336",
-      "color3": "#e55b7e",
-      "font": "theme1_font",
-      "baseFontSize": "16"
-    },
-    {
-      "color1": "#f4f6ec",
-      "color2": "#2d0c03",
-      "color3": "#f8b786",
-      "font": "theme2_font",
-      "baseFontSize": "16"
-    }
-  ];
   
   const doc = document.body;
   const themeButtons = document.querySelectorAll(".theme_selector__button");
   const sizeSelector = document.querySelector(".size_selector");
   const cardThemeSelector = document.querySelectorAll('input[name="option"]');
   const startButton = document.querySelector(".start_button");
-  let gameArea = document.querySelector(".game_area");
+  const gameArea = document.querySelector(".game_area");
   let numbersArray;
   let cardThemeSelected;
   let cardSelected;
@@ -31,24 +13,18 @@ window.onload = function() {
   let matchedCounter;
   
   startButton.addEventListener("click", startGame);
+  doc.classList.add("theme1");
 
   themeButtons.forEach((el,i) => {
-    el.style.setProperty("color", themes[i].color1);
-    el.style.setProperty("background-color", themes[i].color2);
-    el.style.setProperty("border-color", themes[i].color3);
-    el.style.setProperty("font-family", themes[i].font);
-    el.style.setProperty("font-size", (themes[i].baseFontSize - 1 ) + "px");
+    el.classList.add("theme"+(i+1));
     el.addEventListener("click", function() {
       setupTheme(i);
     });
   });
 
-  function setupTheme(num) {
-    doc.style.setProperty("--color", themes[num].color1);
-    doc.style.setProperty("--background_color", themes[num].color2);
-    doc.style.setProperty("--decor_color", themes[num].color3);
-    doc.style.setProperty("--font_family", themes[num].font);
-    doc.style.setProperty("--base_font_size", themes[num].baseFontSize + "px");
+  function setupTheme(i) {
+    doc.classList.remove(doc.classList[0]);
+    doc.classList.add("theme"+(i+1));
   };
   
   function startGame() {
@@ -174,11 +150,7 @@ window.onload = function() {
         item.nextElementSibling.classList.remove("form_item-desabled");
         item.nextElementSibling.style.pointerEvents = "all";
       });
-      gameArea.classList.forEach((item) => {
-        gameArea.classList.remove(item);
-      });
-      gameArea.classList.add("game_area");
+      gameArea.classList.remove(gameArea.classList[1]);
       gameArea.innerHTML = "";
     };
   };
-}
