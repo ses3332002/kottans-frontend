@@ -91,3 +91,17 @@ And what about Flexbox: sometimes I muss with it's properties, thank god there i
   
   [Code base](https://github.com/ses3332002/kottans-frontend/tree/main/html-css-popup)
 </details>
+
+
+## JS Basics
+
+<details>
+  <summary>
+    <b>done, screenshots are here</b>
+  </summary>
+  <img src="./task_js_basics/udacity screenshot5.png" alt="udacity screenshot5">
+  <img src="./task_js_basics/freecodecamp screenshot.png" alt="freecodecamp screenshot">
+</details>
+
+Most of the ES6 features was new for me, it is time to learn them better and to use. 
+Another interesting area is array methods, like .sort(), .reduce(), .filter(), .map() and so on. They are incredibly powerful and useful.
