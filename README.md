@@ -105,3 +105,28 @@ And what about Flexbox: sometimes I muss with it's properties, thank god there i
 
 Most of the ES6 features was new for me, it is time to learn them better and to use. 
 Another interesting area is array methods, like .sort(), .reduce(), .filter(), .map() and so on. They are incredibly powerful and useful.
+
+
+## DOM
+
+<details>
+  <summary>
+    <b>theory is done, screenshots are here</b>
+  </summary>
+  <img src="./task_js_dom/udacity screenshot6.png" alt="udacity screenshot6">
+  <img src="./task_js_dom/freecodecamp screenshot2.png" alt="freecodecamp screenshot2">
+</details>
+
+
+<details>
+  <summary>
+    <b>practice is done, links are here</b>
+  </summary>
+  
+  [Demo](https://ses3332002.github.io/kottans-frontend/dom/)
+  
+  [Code base](https://github.com/ses3332002/kottans-frontend/tree/main/dom)
+</details>
+
+What was new for me is createDocumentFragment().
+I usually used some additional HTML element to fill it in JS loops and put many new elements to DOM by only one operation.
