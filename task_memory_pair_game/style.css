@@ -187,6 +187,11 @@ option {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.game_area-4columns_vertical {
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+
 .game_area-4columns {
   grid-template-columns: repeat(4, 1fr);
 }

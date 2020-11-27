@@ -51,7 +51,7 @@
       if (sizeSelector.value == gamefieldSize1) {
         gameArea.classList.add("game_area-3columns");
       } else {
-        gameArea.classList.add("game_area-4columns");
+        gameArea.classList.add("game_area-4columns_vertical");
       };
     } else {
       if (sizeSelector.value <= gamefieldSize2) {
