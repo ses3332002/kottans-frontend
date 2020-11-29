@@ -130,3 +130,48 @@ Another interesting area is array methods, like .sort(), .reduce(), .filter(), .
 
 What was new for me is createDocumentFragment().
 I usually used some additional HTML element to fill it in JS loops and put many new elements to DOM by only one operation.
+
+
+## Tiny JS World pre-OOP
+
+## Object Oriented JS
+
+<details>
+  <summary>
+    <b>theory is done, screenshots are here</b>
+  </summary>
+  <img src="./task_js_oop/udacity screenshot7.png" alt="udacity screenshot7">
+  <img src="./task_js_oop/codewars screenshot.png" alt="codewars screenshot">
+</details>
+
+
+<details>
+  <summary>
+    <b>practice is done, links are here</b>
+  </summary>
+  
+  [Demo](https://ses3332002.github.io/frontend-nanodegree-arcade-game/)
+  
+  [Code base](https://github.com/ses3332002/frontend-nanodegree-arcade-game)
+</details>
+
+Pseudoclassical patterns of OOP was new for me, I only used prototypal classes and new ES6 classes syntax. Still this new syntax (with "class", "constructor", "extends" etc.) is more clear and logical for me. Maybe it's because I studied Java before JavaScript.
+
+Codewars showed that although higher order functions for arrays are my favorite, I still need to learn them better, they are too useful :)
+
+
+## OOP exercise
+
+## Offline Web Applications
+
+## Memory - Pair Game
+
+<details>
+  <summary>
+    <b>done, links are here</b>
+  </summary>
+  
+  [Demo](https://ses3332002.github.io/kottans-frontend/task_memory_pair_game/)
+  
+  [Code base](https://github.com/ses3332002/kottans-frontend/tree/main/task_memory_pair_game)
+</details>
