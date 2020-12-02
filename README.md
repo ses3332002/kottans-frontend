@@ -134,6 +134,17 @@ I usually used some additional HTML element to fill it in JS loops and put many 
 
 ## Tiny JS World pre-OOP
 
+<details>
+  <summary>
+    <b>done, links are here</b>
+  </summary>
+
+  [Demo](https://ses3332002.github.io/a-tiny-JS-world/)
+  
+  [Code base](https://github.com/ses3332002/a-tiny-JS-world)
+</details>
+
+
 ## Object Oriented JS
 
 <details>
