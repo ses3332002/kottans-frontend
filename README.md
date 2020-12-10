@@ -173,7 +173,19 @@ Codewars showed that although higher order functions for arrays are my favorite,
 
 ## OOP exercise
 
+
 ## Offline Web Applications
+
+<details>
+  <summary>
+    <b>done, screenshots are here</b>
+  </summary>
+  <img src="./task_offline_web_app/udacity screenshot8.png" alt="udacity screenshot8">
+</details>
+ 
+It was very interesting - Service workers, working with browser cash and Indexed DB. Previously I worked only with LocalStorage.
+As always, Udacity courses are wonderful, but this one was just like a comedy television series. I will definitely watch it again :) And I will remake my Memory Game App to Offline First mode, probably for the New Year.
+
 
 ## Memory - Pair Game
 
