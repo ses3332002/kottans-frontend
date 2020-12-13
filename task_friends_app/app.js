@@ -8,13 +8,13 @@ let filterCriterionSex = () => true;
 let filterCriterionAge = () => true;
 let filterCriterionName = () => true;
 let sortCriterion = () => true;
-hamburgerMenu.addEventListener("click", () => hamburgerMenu.classList.toggle("hamburger_menu-opened"));
-optionForm.addEventListener("input", changeData);
 as_is.checked = true;
 all.checked = true;
 age_from.value = "";
 age_to.value = "";
 search_name.value = "";
+hamburgerMenu.addEventListener("click", () => hamburgerMenu.classList.toggle("hamburger_menu-opened"));
+optionForm.addEventListener("input", changeData);
 
 fetch("https://randomuser.me/api/?nat=gb,us,fr&results=60&inc=gender,name,location,email,picture,dob")
   .then((response) => {

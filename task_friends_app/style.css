@@ -7,13 +7,6 @@
   font-style: normal;
 }
 
-/* Color Palette #4278 */
-/* #c4c0c2
-#e4cccb
-#d79551
-#443d2a
-#11110f  */
-
 body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -64,7 +57,7 @@ aside {
   width: 40px;
 }
 
-.filter_name, .filter_submit {
+.filter_name, .reset_button {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
