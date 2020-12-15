@@ -22,7 +22,7 @@ fetch("https://randomuser.me/api/?nat=gb,us,fr&results=60&inc=gender,name,locati
   })
   .then((data) => {
     receivedData = data.results;
-    dataToRender = receivedData.slice().filter(filterCriterionSex).filter(filterCriterionAge).filter(filterCriterionName).sort(sortCriterion);
+    dataToRender = receivedData.slice();
     render();
   });
 
