@@ -208,3 +208,16 @@ As always, Udacity courses are wonderful, but this one was just like a comedy te
   
   [Code base](https://github.com/ses3332002/kottans-frontend/tree/main/task_memory_pair_game)
 </details>
+
+
+## Friends App
+
+<details>
+  <summary>
+    <b>done, links are here</b>
+  </summary>
+  
+  [Demo](https://ses3332002.github.io/kottans-frontend/task_friends_app/)
+  
+  [Code base](https://github.com/ses3332002/kottans-frontend/tree/main/task_friends_app)
+</details>
