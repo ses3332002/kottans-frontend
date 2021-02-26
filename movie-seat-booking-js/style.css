@@ -390,6 +390,10 @@ input[type='checkbox'][data-type='vip']:disabled:checked + .seat::after {
     font-size: 16px;
   }
 
+  .pre_order__item {
+    font-size: 14px;
+  }
+
   .pre_order__list {
     height: auto;
     overflow-y: inherit;
