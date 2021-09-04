@@ -7,8 +7,8 @@
   "background_color": "#3e5336",
   "theme_color": "#f6da73",
   "dir": "ltr",
-  "display": "standalone",
-  "orientation": "any",
+  "display": "fullscreen",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "./android-icon-192x192-dunplab-manifest-49302.png",
