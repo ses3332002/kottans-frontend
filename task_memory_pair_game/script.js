@@ -35,6 +35,7 @@ themeButtons.addEventListener('click', function ({ target }) {
 function startGame() {
   cardThemeSelected = document.querySelector('input[name="option"]:checked');
   matchedCounter = 0;
+  navigator.vibrate(150);
   prepareGameField();
   switchControls();
 }
@@ -103,7 +104,7 @@ function checkCard({ target }) {
   if (target.className != 'card') {
     return;
   }
-
+  navigator.vibrate(150);
   flipCard(target);
   setTimeout(function () {
     if (!cardSelected) {
@@ -154,6 +155,7 @@ function hailWinner() {
 }
 
 function resetWindow() {
+  navigator.vibrate(150);
   popupHailWindow.classList.toggle('popup_hail-hide');
   gameArea.className = 'game_area';
   gameArea.innerHTML = '';
